@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './Bulb.css'
 const Button=(props)=>{
-const [caption,setCaption]=useState('ON')
+const [caption,setCaption]=useState('OFF')
 
 const toggleMe=()=>{
     if(caption==='ON')
